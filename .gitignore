@@ -1,0 +1,15 @@
+# CMake
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDEs (если будешь использовать)
+.vscode/
+.idea/
+
+# Executables
+DroneTracker
+*.out
+*.o
