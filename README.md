@@ -21,6 +21,7 @@ DroneTracker/
 │   └── tracker.cpp     # Tracker class implementation
 ├── CMakeLists.txt      # Build configuration
 └── README.md
+```
 
 ## Tech Stack
 - C++17
@@ -39,25 +40,28 @@ OpenCV (>= 4.x) with the tracking module
 
 Build Instructions
 Clone the repository:
-
+```
 Bash
 git clone [https://github.com/saltdota2/DroneTracker.git](https://github.com/saltdota2/DroneTracker.git)
 cd DroneTracker
 Create a build directory and run CMake:
-
+```
+```
 Bash
 mkdir build && cd build
 cmake ..
 Compile the project:
-
+```
+```
 Bash
 make
 Usage
 Run the executable from the build directory:
-
+```
+```
 Bash
 ./DroneTracker
-
+```
 ## Controls
 - **Mouse:** Select target ROI
 - **SPACE:** Reinitialize target tracking
